@@ -27,7 +27,7 @@ jobs:
             - v1-dependencies-
       - run: sudo npm i -g @angular/cli > /dev/null
 
-      - run: npm i
+      - run: npm i 
 
       - run: ng build --prod
 
